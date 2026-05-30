@@ -89,6 +89,7 @@ set 3d_neutral = 1500
 set small_angle = 180
 set gps_ublox_use_galileo = ON
 set gps_rescue_allow_arming_without_fix = ON
+set pos_hold_without_mag = ON
 set pid_process_denom = 4
 set ledstrip_rainbow_freq = 102
 set osd_warn_bitmask = 270333
