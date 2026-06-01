@@ -24,7 +24,6 @@ resource I2C_SDA 1 NONE
 
 # feature
 feature -AIRMODE
-feature SOFTSERIAL
 feature GPS
 feature TELEMETRY
 feature OSD
@@ -163,3 +162,4 @@ rateprofile 3
 rateprofile 0
 
 # save configuration
+save

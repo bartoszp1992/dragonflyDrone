@@ -13,7 +13,7 @@ use MCU pin 45(B07) as Rx for GNSS
 # firmware
 If you are building remotely:
 > choose analog OSD Protocol and type **OSD_HD** in custom defines, to build firmware with both- digital and analog OSD 
-> In other options add **Magnetometers**, **Position Hold**, **Altitude Hold** and **Soft Serial**
+> In other options add **Magnetometers**, **Position Hold** and **Altitude Hold**
 
 Firmware notice
 
