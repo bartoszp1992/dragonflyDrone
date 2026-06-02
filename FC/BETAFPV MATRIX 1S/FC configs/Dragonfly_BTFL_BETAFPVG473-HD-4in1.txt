@@ -1,8 +1,6 @@
-defaults nosave
-
 
 # version
-# Betaflight / STM32G47X (G473) 2025.12.2 May 29 2026 / 16:28:03 (79065c96b) MSP API: 1.47
+# Betaflight / STM32G47X (G473) 2025.12.3-alpha Jun  1 2026 / 18:47:20 (db7df6e48) MSP API: 1.47
 # config rev: e378347
 
 # start the command batch
@@ -112,7 +110,7 @@ set osd_gps_lat_pos = 81
 set osd_gps_sats_pos = 7693
 set osd_home_dir_pos = 7459
 set osd_home_dist_pos = 7629
-set osd_flight_dist_pos = 3501
+set osd_flight_dist_pos = 7597
 set osd_compass_bar_pos = 6166
 set osd_altitude_pos = 7661
 set osd_power_pos = 289
@@ -140,6 +138,15 @@ profile 0
 
 # profile 0
 set throttle_boost = 10
+set i_pitch = 100
+set d_pitch = 40
+set i_roll = 95
+set d_roll = 35
+set i_yaw = 95
+set d_max_roll = 47
+set d_max_pitch = 55
+set simplified_i_gain = 120
+set simplified_d_gain = 120
 
 profile 1
 
