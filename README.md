@@ -8,8 +8,7 @@ GNSS: FlyFishRC M10 Mini
 PETG
 
 # electronics
-MCU pin 45(B07) as FC Tx -> GNSS Rx(solder directly)
-VTX Tx use as FC Rx <- GNSS Tx
+use MCU pin 45(B07) as FC Rx <-> GNSS Tx(solder directly)
 
 
 
