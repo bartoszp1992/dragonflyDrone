@@ -26,6 +26,7 @@ resource SERIAL_RX 1 A09
 feature -AIRMODE
 feature GPS
 feature TELEMETRY
+feature LED_STRIP
 feature OSD
 
 # serial
