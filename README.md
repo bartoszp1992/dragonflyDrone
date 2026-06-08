@@ -1,5 +1,5 @@
 # parts
-Battery holder contacts: pulled from Keystone 1042P
+Battery holder contacts: pulled from Keystone 1043/1042
 VTX: P1 Air unit
 FC: BETAFPV Matrix 4IN1
 GNSS: FlyFishRC M10 Mini
