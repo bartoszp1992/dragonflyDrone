@@ -1,15 +1,15 @@
 # parts
-Battery holder contacts: pulled from Keystone 1043/1042
-VTX: P1 Air unit
-FC: BETAFPV Matrix 4IN1
-GNSS: FlyFishRC M10 Mini
+- Battery holder contacts: pulled from Keystone 1043/1042
+- VTX: P1 Air unit
+- FC: BETAFPV Matrix 4IN1
+- GNSS: FlyFishRC M10 Mini
 
 # filament
 PETG
 
 # electronics
-use MCU pin 45(B07) as FC Tx -> GNSS Rx(solder directly)
-use T1 pin as FC Rx <- GNSS Tx
+- use MCU pin 45(B07) as FC Tx -> GNSS Rx(solder directly)
+- use T1 pin as FC Rx <- GNSS Tx
 
 
 
