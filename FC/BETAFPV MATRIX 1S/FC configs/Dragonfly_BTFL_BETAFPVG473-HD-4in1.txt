@@ -94,6 +94,8 @@ set 3d_deadband_high = 1600
 set 3d_neutral = 1500
 set small_angle = 180
 set gps_ublox_use_galileo = ON
+set gps_rescue_alt_mode = CURRENT_ALT
+set gps_rescue_return_alt = 40
 set gps_rescue_allow_arming_without_fix = ON
 set pos_hold_without_mag = ON
 set pid_process_denom = 4
@@ -143,21 +145,21 @@ set displayport_max7456_blk = 2
 set displayport_max7456_wht = 0
 set craft_name = BD3 "Dragonfly"
 set pilot_name = Bart SQ5SAZ
-set ap_hover_throttle = 1500
+set ap_hover_throttle = 1650
 
 profile 0
 
 # profile 0
 set throttle_boost = 10
-set i_pitch = 100
-set d_pitch = 40
-set i_roll = 95
-set d_roll = 35
-set i_yaw = 95
-set d_max_roll = 47
-set d_max_pitch = 55
-set simplified_i_gain = 120
-set simplified_d_gain = 120
+set i_pitch = 92
+set d_pitch = 54
+set i_roll = 88
+set d_roll = 47
+set i_yaw = 88
+set d_max_roll = 63
+set d_max_pitch = 73
+set simplified_i_gain = 110
+set simplified_d_gain = 160
 
 profile 1
 
