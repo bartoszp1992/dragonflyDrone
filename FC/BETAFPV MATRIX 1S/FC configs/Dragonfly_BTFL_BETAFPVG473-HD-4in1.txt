@@ -1,5 +1,6 @@
 defaults nosave
 
+# diff all
 
 # version
 # Betaflight / STM32G47X (G473) 2025.12.2 Jun  5 2026 / 14:36:58 (79065c96b) MSP API: 1.47
@@ -13,7 +14,7 @@ defaults nosave
 
 board_name BETAFPVG473_V2
 manufacturer_id BEFH
-mcu_id 004c002c4c43500c2034334e
+mcu_id 0041001c4c43500a2034334e
 signature 
 
 # name: BD3 "Dragonfly"
@@ -105,7 +106,7 @@ set osd_cap_alarm = 1900
 set osd_tim1 = 5120
 set osd_tim2 = 5121
 set osd_vbat_pos = 449
-set osd_link_quality_pos = 3149
+set osd_link_quality_pos = 7245
 set osd_tim_2_pos = 7213
 set osd_flymode_pos = 6680
 set osd_g_force_pos = 2080
