@@ -1,6 +1,5 @@
 defaults nosave
 
-# diff all
 
 # version
 # Betaflight / STM32G47X (G473) 2025.12.2 Jun  5 2026 / 14:36:58 (79065c96b) MSP API: 1.47
@@ -73,7 +72,13 @@ set dyn_notch_count = 1
 set dyn_notch_q = 500
 set acc_calibration = -82,9,5,1
 set fpv_mix_degrees = 20
-set blackbox_sample_rate = 1/2
+set blackbox_sample_rate = 1/16
+set blackbox_disable_pids = ON
+set blackbox_disable_setpoint = ON
+set blackbox_disable_mag = ON
+set blackbox_disable_gyro = ON
+set blackbox_disable_gyrounfilt = ON
+set blackbox_disable_rpm = ON
 set dshot_bidir = ON
 set motor_pwm_protocol = DSHOT300
 set motor_poles = 12
@@ -138,6 +143,7 @@ set osd_stick_overlay_right_pos = 149
 set osd_sys_goggle_voltage_pos = 129
 set osd_stat_bitmask = 397246
 set osd_profile = 2
+set debug_mode = RX_SIGNAL_LOSS
 set vtx_band = 5
 set vtx_channel = 4
 set vtx_power = 1
@@ -147,6 +153,7 @@ set displayport_max7456_wht = 0
 set craft_name = BD3 "Dragonfly"
 set pilot_name = Bart SQ5SAZ
 set ap_hover_throttle = 1650
+set ap_throttle_max = 1900
 
 profile 0
 
