@@ -95,6 +95,7 @@ set vbat_min_cell_voltage = 270
 set vbat_warning_cell_voltage = 290
 set ibata_scale = 550
 set ibata_offset = -100
+set yaw_motors_reversed = ON
 set 3d_deadband_low = 1400
 set 3d_deadband_high = 1600
 set 3d_neutral = 1500
