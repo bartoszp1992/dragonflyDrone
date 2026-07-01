@@ -26,6 +26,7 @@ feature LED_STRIP
 feature OSD
 
 # serial
+serial VCP 1 57600 57600 0 115200
 serial UART2 2 115200 57600 0 115200
 serial UART4 131073 115200 57600 0 115200
 
@@ -140,6 +141,7 @@ set osd_stick_overlay_right_pos = 149
 set osd_sys_goggle_voltage_pos = 129
 set osd_stat_bitmask = 397246
 set osd_profile = 2
+set system_hse_mhz = 0
 set debug_mode = RX_SIGNAL_LOSS
 set vtx_band = 5
 set vtx_channel = 4
