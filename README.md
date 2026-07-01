@@ -8,6 +8,7 @@
 PETG
 
 # electronics
+## FC 4in1
 - use MCU pin 45(B07) as FC Tx -> GNSS Rx(solder directly)
 - use T1 pin as FC Rx <- GNSS Tx
 
