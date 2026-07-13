@@ -1,5 +1,6 @@
 defaults nosave
 
+# diff all
 
 # version
 # Betaflight / STM32G47X (G473) 2025.12.2 Jun 14 2026 / 04:55:54 (79065c96b) MSP API: 1.47
@@ -49,7 +50,7 @@ aux 7 11 0 1800 2100 1 0
 aux 8 28 2 900 1800 0 0
 aux 9 35 4 1800 2100 1 0
 aux 10 35 0 1800 2100 1 0
-aux 11 39 8 1800 2100 1 0
+aux 11 39 3 1800 2100 1 0
 
 # vtxtable
 vtxtable bands 5
@@ -113,7 +114,7 @@ set osd_tim_2_pos = 7213
 set osd_flymode_pos = 6680
 set osd_g_force_pos = 2080
 set osd_throttle_pos = 3181
-set osd_crosshairs_pos = 6457
+set osd_crosshairs_pos = 313
 set osd_ah_sbar_pos = 6458
 set osd_ah_pos = 6330
 set osd_current_pos = 6625
