@@ -13,7 +13,7 @@ defaults nosave
 
 board_name BETAFPVG473_V2
 manufacturer_id BEFH
-mcu_id 0041001c4c43500a2034334e
+mcu_id 0027004b4c43500b2034334e
 signature 
 
 # name: BD3 "Dragonfly"
@@ -31,7 +31,7 @@ feature OSD
 
 # serial
 serial UART1 2 115200 57600 0 115200
-serial UART2 131073 115200 115200 0 115200
+serial UART2 131073 115200 57600 0 115200
 
 # led
 led 0 7,15::AB:0
@@ -44,16 +44,19 @@ mode_color 6 1 6
 # aux
 aux 0 0 1 1200 2100 0 0
 aux 1 1 2 900 1200 1 0
-aux 2 3 4 900 1200 1 0
-aux 3 3 0 1800 2100 1 0
-aux 4 27 4 1800 2100 1 0
-aux 5 27 0 900 1200 1 0
-aux 6 11 4 900 1200 1 0
-aux 7 11 0 1800 2100 1 0
-aux 8 28 2 900 1800 0 0
-aux 9 35 4 1800 2100 1 0
-aux 10 35 0 1800 2100 1 0
-aux 11 39 8 1800 2100 1 0
+aux 2 3 4 900 1300 1 0
+aux 3 3 0 1700 2100 1 0
+aux 4 6 7 900 1300 0 0
+aux 5 27 4 1700 2100 1 0
+aux 6 27 0 900 1300 1 0
+aux 7 11 4 900 1300 1 0
+aux 8 11 0 1700 2100 1 0
+aux 9 15 6 1700 2100 0 0
+aux 10 28 2 900 1700 0 0
+aux 11 35 4 1700 2100 1 0
+aux 12 35 0 1700 2100 1 0
+aux 13 39 3 1700 2100 1 0
+aux 14 49 7 1700 2100 0 0
 
 # vtxtable
 vtxtable bands 5
@@ -107,7 +110,7 @@ set gps_rescue_allow_arming_without_fix = ON
 set pos_hold_without_mag = ON
 set pid_process_denom = 4
 set ledstrip_rainbow_freq = 102
-set osd_warn_bitmask = 270333
+set osd_warn_bitmask = 270329
 set osd_cap_alarm = 1900
 set osd_tim1 = 5120
 set osd_tim2 = 5121
@@ -117,7 +120,7 @@ set osd_tim_2_pos = 7213
 set osd_flymode_pos = 6680
 set osd_g_force_pos = 2080
 set osd_throttle_pos = 3181
-set osd_crosshairs_pos = 6457
+set osd_crosshairs_pos = 313
 set osd_ah_sbar_pos = 6458
 set osd_ah_pos = 6330
 set osd_current_pos = 6625
@@ -144,6 +147,7 @@ set osd_stick_overlay_right_pos = 149
 set osd_sys_goggle_voltage_pos = 129
 set osd_stat_bitmask = 397246
 set osd_profile = 2
+set system_hse_mhz = 0
 set debug_mode = RX_SIGNAL_LOSS
 set vtx_band = 5
 set vtx_channel = 4
