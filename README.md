@@ -53,9 +53,7 @@ Betaflight build system.
 
 Corresponding source:
 
-Betaflight repository, tag `2025.12.2`
-(including the `src/config` target configuration submodule referenced by
-that source version).
+https://github.com/betaflight/betaflight,  tag `2025.12.2`
 
 Betaflight is distributed under the GNU General Public License version 3.
 A copy of the GNU GPL v3 is included in this repository as `LICENSE.txt`.
